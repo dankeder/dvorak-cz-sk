@@ -1,0 +1,12 @@
+
+0.2:
+- separate cz and sk variants of the keyboard
+- added eurosign under AltGr+4
+- fixed position of dead caron
+- added Makefile to simplify installation
+
+0.1.1:
+- switched locations of lacute-lcaron and racute-rcaron
+
+v 0.1:
+- initial version
