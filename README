@@ -14,7 +14,9 @@ Usually it is just enough to run:
   $ make install
 
 If the path to your XKB symbols directory is different than in
-Fedora/RedHat, edit the Makefile appropriately.
+Fedora/RedHat, edit the Makefile and change the path
+appropriately. Maybe somewhere in the future I will update the
+install script to detect the target directory automatically.
 
 Now you can switch to the new layout using one of the commands:
 
