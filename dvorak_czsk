@@ -21,6 +21,7 @@ xkb_symbols "dvorak-czsk-common" {
     key <AD05> { [           y,         Y,      yacute,          Yacute ] };
     key <AD08> { [           c,         C,      ccaron,          Ccaron ] };
 
+    key <TLDE> { [       grave,asciitilde,      degree                  ] };
     key <AE04> { [           4,    dollar,    EuroSign                  ] };
 
     include "level3(ralt_switch)"
