@@ -24,6 +24,12 @@ Now you can switch the layout:
     $ setxkbmap dvorak_czsk sk
 
 
+Alternate way - modify the standard "cz dvorak-ucw" layout
+----------------------------------------------------------
+
+Copy `cz` to `/usr/share/X11/xkb/symbols/cz`, then run `setxkbmap cz dvorak-ucw`.
+
+
 Author
 ------
 
