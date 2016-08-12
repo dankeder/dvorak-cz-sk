@@ -157,14 +157,14 @@ xkb_symbols "dvorak-ucw" {
     name[Group1]= "Czech (US Dvorak with CZ UCW support)";
 
     key <AB02> { [ q, Q, ocircumflex, Ocircumflex ] };
-    key <AB03> { [ j, J, eacute, Eacute ] };
-    key <AB04> { [ k, K, uacute, Uacute ] };
+    key <AB03> { [ j, J, ecaron, Ecaron ] };
+    key <AB04> { [ k, K, uring,  Uring ] };
     key <AB10> { [ z, Z, zcaron, Zcaron ] };
 
     key <AC01> { [ a, A, aacute, Aacute ] };
     key <AC02> { [ o, O, oacute, Oacute ] };
-    key <AC03> { [ e, E, ecaron, Ecaron ] };
-    key <AC04> { [ u, U, uring,  Uring  ] };
+    key <AC03> { [ e, E, eacute, Eacute ] };
+    key <AC04> { [ u, U, uacute, Uacute ] };
     key <AC05> { [ i, I, iacute, Iacute ] };
     key <AC06> { [ d, D, dcaron, Dcaron ] };
     key <AC08> { [ t, T, tcaron, Tcaron ] };
@@ -173,7 +173,8 @@ xkb_symbols "dvorak-ucw" {
 
     key <AD05> { [ y, Y, yacute, Yacute ] };
     key <AD08> { [ c, C, ccaron, Ccaron ] };
-    key <AD09> { [ r, R, rcaron, Rcaron ] };
+    key <AD09> { [ r, R, racute, Racute ] };
+    key <AD10> { [ l, L, lcaron, Lcaron ] };
 
     include "level3(ralt_switch)"
 };
