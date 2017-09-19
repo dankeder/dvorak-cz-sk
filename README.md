@@ -8,15 +8,20 @@ Dvorak keyboard keyboard layout with CZ/SK characters.
 Installation
 ------------
 
-Copy `cz` to `/usr/share/X11/xkb/symbols/cz`, then run `setxkbmap cz dvorak-ucw`.
+Run:
+    make install
+
+Then set the keyboard layout:
+
+    localectl set-x11-keymap cz pc105 dvorak-ucw
+
+Old way with setxkbmap should work too:
+
+    setxkbmap cz dvorak-ucw
 
 
 Alternate way
 -------------
-
-Run:
-
-    $ make install
 
 The manual way: Or copy the file `dvorak_czsk` into the XKB symbols directory:
 
