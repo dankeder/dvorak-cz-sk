@@ -3,6 +3,8 @@ CZ/SK Dvorak Keyboard Layout
 
 Dvorak keyboard keyboard layout with CZ/SK characters.
 
+![Preview](preview.png)
+
 
 Installation
 ------------
