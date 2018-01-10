@@ -28,23 +28,6 @@ setxkbmap cz dvorak-ucw
 ```
 
 
-Alternate way
--------------
-
-Copy the file `dvorak_czsk` into the XKB symbols directory:
-
-  - for Fedora, Centos, RHEL...: `/usr/share/X11/xkb/symbols`
-  - for Debian, Ubuntu, etc.: `/etc/X11/xkb/symbols/`
-
-Now you can switch the layout:
-
-```
-$ setxkbmap dvorak_czsk czsk
-$ setxkbmap dvorak_czsk cz
-$ setxkbmap dvorak_czsk sk
-```
-
-
 Credits
 -------
 
