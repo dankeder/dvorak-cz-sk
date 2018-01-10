@@ -1,4 +1,3 @@
-
 CZ/SK Dvorak Keyboard Layout
 ============================
 
@@ -9,33 +8,49 @@ Installation
 ------------
 
 Run:
-    make install
+
+```
+make install
+```
 
 Then set the keyboard layout:
 
-    localectl set-x11-keymap cz pc105 dvorak-ucw
+```
+localectl set-x11-keymap cz pc105 dvorak-ucw
+```
 
 Old way with setxkbmap should work too:
 
-    setxkbmap cz dvorak-ucw
+```
+setxkbmap cz dvorak-ucw
+```
 
 
 Alternate way
 -------------
 
-The manual way: Or copy the file `dvorak_czsk` into the XKB symbols directory:
+Copy the file `dvorak_czsk` into the XKB symbols directory:
 
   - for Fedora, Centos, RHEL...: `/usr/share/X11/xkb/symbols`
   - for Debian, Ubuntu, etc.: `/etc/X11/xkb/symbols/`
 
 Now you can switch the layout:
 
-    $ setxkbmap dvorak_czsk czsk
-    $ setxkbmap dvorak_czsk cz
-    $ setxkbmap dvorak_czsk sk
+```
+$ setxkbmap dvorak_czsk czsk
+$ setxkbmap dvorak_czsk cz
+$ setxkbmap dvorak_czsk sk
+```
 
 
-Author
-------
+Credits
+-------
 
-Dan Keder <dan.keder@gmail.com>
+The layout file `cz` is taken from Fedora, all credits go to the authors of it.
+I just tweaked it a little bit. 
+
+
+License
+-------
+
+MIT
