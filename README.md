@@ -33,9 +33,3 @@ Credits
 
 The layout file `cz` is taken from Fedora, all credits go to the authors of it.
 I just tweaked it a little bit. 
-
-
-License
--------
-
-MIT
