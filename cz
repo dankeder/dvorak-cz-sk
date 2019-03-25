@@ -173,8 +173,11 @@ xkb_symbols "dvorak-ucw" {
 
     key <AD05> { [ y, Y, yacute, Yacute ] };
     key <AD08> { [ c, C, ccaron, Ccaron ] };
-    key <AD09> { [ r, R, racute, Racute ] };
+    key <AD09> { [ r, R, rcaron, Rcaron ] };
     key <AD10> { [ l, L, lcaron, Lcaron ] };
+
+    key <AE09> { [ 9, braceleft, racute, Racute ] };
+    key <AE10> { [ 0, braceright, lacute, Lacute ] };
 
     include "level3(ralt_switch)"
 };
